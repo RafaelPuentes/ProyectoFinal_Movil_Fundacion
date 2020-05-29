@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.yourdomain.fundacion.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home">
+
+</fragment>
+
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.yourdomain.fundacion.ui.Registro.RegistrarUsuarioFragment"
+        android:label="Registrar usuario"
+        tools:layout="@layout/fragment_registrarusuario" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.yourdomain.fundacion.ui.Consulta.ConsultarUsuarioFragment"
+        android:label="Consultar Usuario"
+        tools:layout="@layout/fragment_consultarusuario" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.yourdomain.fundacion.ui.Consulta.ConsultarListaFragment"
+        android:label="Consultar Lista Usuarios"
+        tools:layout="@layout/fragment_consultarlista" />
+</navigation>

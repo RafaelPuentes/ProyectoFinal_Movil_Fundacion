@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/registro"
+            android:title="Registra usuario" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/consulta"
+            android:title="Consultar usuario" />
+
+        <item
+            android:id="@+id/blankFragment"
+            android:icon="@drawable/lista"
+            android:title="Consultar lista de usuario" />
+    </group>
+</menu>
